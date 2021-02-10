@@ -18,8 +18,10 @@ body {
 }
 
 h2 {
+  background: #c5f5d0;
   font-size: 30px;
   text-align: center;
+  padding: 5px;
 }
 
 .sub {
