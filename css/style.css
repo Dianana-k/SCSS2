@@ -62,12 +62,27 @@ h2 {
   text-align: left;
   margin: 0 auto;
   padding: 0 30px;
+  list-style-type: none;
 }
 
 .course ul li {
-  padding: 10px 0;
+  padding: 10px 0px 10px 20px;
   font-size: 20px;
   margin: 10px;
+  position: relative;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.course ul li:before {
+  background: url(../img/outline_task_alt_black_18dp.png) no-repeat;
+  position: absolute;
+  left: -30px;
+  display: inline-block;
+  content: "";
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: contain;
 }
 
 .course-rt {
