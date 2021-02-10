@@ -22,15 +22,18 @@ h2 {
   font-size: 30px;
   text-align: center;
   padding: 5px;
+  font-weight: bold;
 }
 
 .sub {
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .box {
   border: solid 5px green;
-  max-width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -67,6 +70,10 @@ h2 {
   margin: 10px;
 }
 
+.course-rt {
+  margin-top: 30px;
+}
+
 .course-rt p {
   font-size: 20px;
   color: black;
@@ -76,7 +83,7 @@ h2 {
   border-color: orange transparent transparent transparent;
   position: relative;
   content: "";
-  left: 200px;
+  left: 250px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -96,6 +103,10 @@ h2 {
   font-size: 30px;
 }
 
+.course-rt2 {
+  margin-top: 30px;
+}
+
 .course-rt2 p {
   font-size: 20px;
   color: black;
@@ -105,7 +116,7 @@ h2 {
   border-color: #7BADDE transparent transparent transparent;
   position: relative;
   content: "";
-  left: 200px;
+  right: -250px;
   width: 0;
   height: 0;
   border-style: solid;
