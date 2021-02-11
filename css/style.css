@@ -37,7 +37,7 @@ h2 {
   margin: 0 auto;
 }
 
-.box p {
+.box h3 {
   text-align: center;
   margin: 20px;
   font-size: 30px;
@@ -85,68 +85,78 @@ h2 {
   background-size: contain;
 }
 
-.course-rt {
+.your-course {
   margin-top: 30px;
 }
 
-.course-rt p {
+.your-course p {
   font-size: 20px;
+  margin: 0 auto;
   color: black;
 }
 
-.course-rt::before {
+.your-course::before {
   border-color: orange transparent transparent transparent;
   position: relative;
   content: "";
-  left: 250px;
+  left: 260px;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 26px 25px 0 25px;
 }
 
-.course-rt .result {
+.your-course .result {
   background: orange;
   padding: 20px;
   font-size: 25px;
   font-weight: bold;
+  margin: 20px;
 }
 
-.course-rt .result span {
+.your-course .result em {
   color: #fff;
-  font-weight: bold;
-  font-size: 30px;
 }
 
-.course-rt2 {
+.your-course .result p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.your-course2 {
   margin-top: 30px;
 }
 
-.course-rt2 p {
+.your-course2 p {
   font-size: 20px;
   color: black;
+  margin: 0 auto;
 }
 
-.course-rt2::before {
+.your-course2::before {
   border-color: #7BADDE transparent transparent transparent;
   position: relative;
   content: "";
-  right: -250px;
+  right: -260px;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 26px 25px 0 25px;
 }
 
-.course-rt2 .result2 {
+.your-course2 .result2 {
   background: #7BADDE;
   padding: 20px;
   font-size: 25px;
   font-weight: bold;
+  margin: 20px;
 }
 
-.course-rt2 .result2 span {
+.your-course2 .result2 em {
   color: #fff;
-  font-weight: bold;
+}
+
+.your-course2 .result2 p {
   font-size: 30px;
+  text-align: center;
 }
