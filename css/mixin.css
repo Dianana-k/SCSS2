@@ -1,3 +1,48 @@
 @media only screen and (max-width: 768px) {
-  font-size: large;
+  .sub {
+    padding: 20px;
+  }
+  .box {
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+  }
+  .inner-box {
+    display: block;
+  }
+  .course {
+    width: 100%;
+  }
+  .your-course {
+    margin: 20px auto;
+  }
+  .your-course .result {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .your-course .result p {
+    font-size: 20px;
+  }
+  .your-course .result em {
+    font-size: 30px;
+  }
+  .your-course::before {
+    left: 200px;
+  }
+  .your-course2 {
+    margin: 20px auto;
+  }
+  .your-course2::before {
+    left: 200px;
+  }
+  .your-course2 .result2 {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .your-course2 .result2 p {
+    font-size: 20px;
+  }
+  .your-course2 .result2 em {
+    font-size: 30px;
+  }
 }
