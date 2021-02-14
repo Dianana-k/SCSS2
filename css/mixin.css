@@ -1,3 +1,45 @@
+@media only screen and (max-width: 980px) {
+  .box {
+    width: 90%;
+  }
+  .course ul {
+    padding: 20px 10px;
+    margin: 10px;
+  }
+  .your-course {
+    position: relative;
+  }
+  .your-course::before {
+    border-color: orange transparent transparent transparent;
+    position: absolute;
+    content: "";
+    top: -40px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 25px 0 25px;
+    right: 0;
+    margin: auto;
+  }
+  .your-course2 {
+    position: relative;
+  }
+  .your-course2::before {
+    border-color: #7BADDE transparent transparent transparent;
+    position: absolute;
+    content: "";
+    top: -40px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 25px 0 25px;
+    right: 0;
+    margin: auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .sub {
     padding: 20px;
@@ -20,9 +62,6 @@
     position: relative;
   }
   .your-course::before {
-    border-color: orange transparent transparent transparent;
-    position: absolute;
-    content: "";
     top: -40px;
     left: 0;
     width: 0;
@@ -46,10 +85,8 @@
     position: relative;
   }
   .your-course2::before {
-    border-color: #7BADDE transparent transparent transparent;
-    position: absolute;
-    content: "";
     top: -40px;
+    right: 0;
     left: 0;
     width: 0;
     height: 0;
