@@ -13,8 +13,24 @@
   .course {
     width: 100%;
   }
+  .course ul {
+    padding: 20px 10px;
+  }
   .your-course {
-    margin: 20px auto;
+    position: relative;
+  }
+  .your-course::before {
+    border-color: orange transparent transparent transparent;
+    position: absolute;
+    content: "";
+    top: -40px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 25px 0 25px;
+    right: 0;
+    margin: auto;
   }
   .your-course .result {
     margin: 0 auto;
@@ -26,14 +42,21 @@
   .your-course .result em {
     font-size: 30px;
   }
-  .your-course::before {
-    left: 200px;
-  }
   .your-course2 {
-    margin: 20px auto;
+    position: relative;
   }
   .your-course2::before {
-    left: 200px;
+    border-color: #7BADDE transparent transparent transparent;
+    position: absolute;
+    content: "";
+    top: -40px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 25px 0 25px;
+    right: 0;
+    margin: auto;
   }
   .your-course2 .result2 {
     margin: 0 auto;
